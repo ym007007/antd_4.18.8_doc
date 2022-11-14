@@ -1,0 +1,19 @@
+{
+    "name": "Ant Design",
+    "package": "antd",
+    "index": "index.html",
+    "selectors": {
+      ".main-container .markdown h1": {
+        "type": "Component",
+        "matchpath": "components"
+      },
+      "#demo-toc > li": {
+        "type": "Section",
+        "matchpath": "components"
+      }
+    },
+    "ignore": ["ABOUT"],
+    "icon32x32": "",
+    "allowJS": true,
+    "ExternalURL": "https://ant.design/"
+  }
